@@ -1,30 +1,48 @@
-/* ---------- Base layout (Dark Mode) ---------- */
+/* ============================================================
+   FULL DARK OVERRIDE per il Digital Garden
+   Palette: Flexoki Dark (Steph Ango)
+   ============================================================ */
 
-body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 18px;
-  line-height: 1.65;
-  color: #FFFCF0; /* paper */
-  background: #1C1B1A; /* base-950 */
+/* ---------- Radici globali ---------- */
+:root {
+  --bg: #1C1B1A;        /* base-950 */
+  --bg-alt: #1E1D1C;    /* dark paper */
+  --text-primary: #FFFCF0; /* paper */
+  --text-secondary: #CECDC3; /* base-200 */
+  --text-muted: #A6A39A; /* base-300 */
+  --border: #3A3937;    /* base-800 */
+  --accent-blue: #8DA3C9; /* blue-400 */
+  --accent-cyan: #5BAEA4; /* cyan-400 */
+}
+
+/* ---------- Base ---------- */
+html, body {
+  background: var(--bg) !important;
+  color: var(--text-primary) !important;
   margin: 0;
   padding: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.65;
 }
 
-main, .content, .page {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 3rem 1.4rem;
+/* Per correggere wrapper interni del template */
+body > div,
+.page,
+.page-content,
+.wrapper,
+main,
+.content {
+  background: var(--bg) !important;
+  color: var(--text-primary) !important;
 }
 
-/* ---------- Tipografia ---------- */
-
-h1, h2, h3, h4 {
-  font-weight: 600;
-  line-height: 1.25;
-  margin: 2.2rem 0 1rem;
-  color: #F2F0E5; /* base-100 */
-}
-
-h1 { font-size: 2.2rem; }
-h2 { font-size: 1.6rem; }
-h3 {
+/* ---------- Header / Nav completamente scuri ---------- */
+header,
+nav,
+.navbar,
+.site-header,
+.site-nav,
+.topnav,
+.header {
+  background: var(--bg) !important;
+  color: var(--text-secondar
