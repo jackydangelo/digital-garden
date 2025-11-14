@@ -1,44 +1,42 @@
-/* --- Definizione variabili Flexoki --- */
-:root {
-  /* Background */
-  --flexoki-bg: #FFFCF0;       /* carta chiara */  
-  --flexoki-bg-2: #F2F0E5;     /* sfondo secondario */
-
-  /* Interfaccia / UI (bordo, sfondi secondari) */
-  --flexoki-ui: #E6E4D9;        /* UI principale */
-  --flexoki-ui-2: #DAD8CE;      /* hover / attivo */
-  --flexoki-ui-3: #CECDC3;
-
-  /* Testo */
-  --flexoki-tx: #1C1B1A;        /* testo principale */  
-  --flexoki-tx-2: #6F6E69;      /* testo “muted” / secondario */  
-  --flexoki-tx-3: #575653;      /* testo faint / commenti */
-
-  /* Accent colors (link, evidenziazioni...) */
-  --flexoki-red: #D14D41;
-  --flexoki-orange: #DA702C;
-  --flexoki-yellow: #D0A215;
-  --flexoki-green: #879A39;
-  --flexoki-cyan: #3AA99F;
-  --flexoki-blue: #4385BE;
-  --flexoki-purple: #8B7EC8;
-  --flexoki-magenta: #CE5D97;
-}
-
-/* --- Stili globali --- */
+/* --- Corpo e font --- */
 body {
-  background-color: var(--flexoki-bg);
-  color: var(--flexoki-tx);
+  background-color: #FFFCF0;
+  color: #1C1B1A;
   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
 
 /* Titoli */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--flexoki-tx-2);
+  color: #6F6E69;
   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
   font-weight: 600;
   margin-top: 1.4em;
-  ma
+  margin-bottom: 0.6em;
+}
+
+/* Link */
+a {
+  color: #4385BE;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover, a:focus {
+  color: #8B7EC8;
+  text-decoration: underline;
+}
+
+/* Tag o link interni */
+.tag, .internal-link {
+  background-color: #E6E4D9;
+  color: #1C1B1A;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+/* Blocchi di codice */
+pre, code {
+  font-family: 'Courier New', monospace;
+  background-color:
