@@ -9,3 +9,132 @@ body {
   margin: 0;
   padding: 0;
 }
+
+main, .content, .page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 1.4rem;
+}
+
+/* ---------- Tipografia ---------- */
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2.2rem 0 1rem;
+  color: #100F0F; /* black */
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+p, ul, ol {
+  margin: 1.2rem 0;
+  color: #282726; /* base-900 */
+}
+
+/* ---------- Link ---------- */
+
+a {
+  color: #205EA6; /* blue-600 */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Navigazione ---------- */
+
+nav {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+  color: #575653; /* base-700 */
+}
+nav a {
+  margin-right: 1rem;
+  color: #6F6E69; /* base-600 */
+}
+nav a:hover {
+  color: #205EA6; /* blue-600 */
+  opacity: 1;
+}
+
+/* ---------- Immagini ---------- */
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+/* ---------- Codice ---------- */
+
+pre, code {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  background: #F2F0E5; /* base-50 */
+  border-radius: 4px;
+}
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+code {
+  padding: 0.2rem 0.3rem;
+}
+
+/* ---------- Tabelle ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #CECDC3; /* base-200 */
+}
+th {
+  font-weight: 600;
+  color: #575653; /* base-700 */
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  padding: 2rem 1.4rem;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: #878580; /* base-500 */
+  text-align: left;
+}
+
+/* ---------- Dettagli minimal ---------- */
+
+.card,
+.callout,
+blockquote {
+  border-left: 3px solid #24837B; /* cyan-600 */
+  background: #FFFCF0; /* paper */
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+blockquote {
+  border-left-color: #66800B; /* green-600 */
+  font-style: italic;
+  color: #403E3C; /* base-800 */
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+  main, .content, .page {
+    padding: 2rem 1rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+}
