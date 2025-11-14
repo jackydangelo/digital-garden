@@ -1,26 +1,17 @@
-/* --- BODY PRINCIPALE --- */
+/* BODY e testo principale */
 body {
     background-color: #000000; /* sfondo nero */
     color: #FFD700;           /* testo giallo */
     font-family: 'Arial', sans-serif;
 }
 
-/* --- HEADER / INTESTAZIONE --- */
-header, .header, .navbar, .site-title {
-    background-color: #000000 !important; /* forza sfondo nero */
-    color: #FFD700 !important;            /* forza testo giallo */
-}
-
-/* Link nell'intestazione */
-header a, .header a, .navbar a, .site-title a {
+/* HEADER / NAVBAR */
+:where(header, .header, nav, .navbar, .site-title) {
+    background-color: #000000 !important;
     color: #FFD700 !important;
 }
 
-header a:hover, .header a:hover, .navbar a:hover, .site-title a:hover {
-    color: #FFFF00 !important; /* giallo chiaro al passaggio del mouse */
-}
-
-/* --- LINK GENERICI --- */
+/* LINK GENERICI */
 a {
     color: #FFD700;
     text-decoration: none;
@@ -30,4 +21,59 @@ a:hover {
     color: #FFFF00;
 }
 
-/* --- TI*
+/* TITOLI */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700;
+}
+
+/* BLOCCHI DI CODICE */
+code, pre {
+    background-color: #111111;
+    color: #FFD700;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+/* TABELLE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #FFD700;
+    padding: 8px;
+    color: #FFD700;
+}
+
+th {
+    background-color: #111111;
+}
+
+/* SEZIONI / ARTICOLI */
+section, article, footer {
+    background-color: #000000;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFD700;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #111111;
+}
+
+/* LINK INTERNI DI OBSIDIAN */
+a.internal-link {
+    color: #FFD700;
+}
+
+a.internal-link:hover {
+    color: #FFFF00;
+}
