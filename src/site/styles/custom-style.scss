@@ -1,64 +1,33 @@
-/* Sfondo e testo principale */
+/* --- BODY PRINCIPALE --- */
 body {
     background-color: #000000; /* sfondo nero */
-    color: #FFD700; /* giallo simile a stephango.com */
+    color: #FFD700;           /* testo giallo */
     font-family: 'Arial', sans-serif;
 }
 
-/* Link */
+/* --- HEADER / INTESTAZIONE --- */
+header, .header, .navbar, .site-title {
+    background-color: #000000 !important; /* forza sfondo nero */
+    color: #FFD700 !important;            /* forza testo giallo */
+}
+
+/* Link nell'intestazione */
+header a, .header a, .navbar a, .site-title a {
+    color: #FFD700 !important;
+}
+
+header a:hover, .header a:hover, .navbar a:hover, .site-title a:hover {
+    color: #FFFF00 !important; /* giallo chiaro al passaggio del mouse */
+}
+
+/* --- LINK GENERICI --- */
 a {
-    color: #FFD700; /* stesso giallo per i link */
-    text-decoration: none; /* rimuove sottolineatura */
+    color: #FFD700;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #FFFF00; /* un giallo più chiaro al passaggio del mouse */
+    color: #FFFF00;
 }
 
-/* Header e titoli */
-h1, h2, h3, h4, h5, h6 {
-    color: #FFD700;
-}
-
-/* Blocchi di codice */
-code, pre {
-    background-color: #111111; /* leggermente più chiaro del nero per distinguere il codice */
-    color: #FFD700;
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-}
-
-/* Tabelle */
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #FFD700;
-    padding: 8px;
-    color: #FFD700;
-}
-
-th {
-    background-color: #111111;
-}
-
-/* Altri elementi di sfondo */
-section, article, nav, footer {
-    background-color: #000000;
-}
-
-/* Optional: scrollbar personalizzata */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #FFD700;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #111111;
-}
+/* --- TI*
