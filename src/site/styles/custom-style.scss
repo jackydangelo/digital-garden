@@ -1,54 +1,5 @@
-/* ============================================================
-   FULL DARK OVERRIDE per il Digital Garden
-   Palette: Flexoki Dark (Steph Ango)
-   ============================================================ */
+body {
 
-/* ---------- Radici globali ---------- */
-
-* {
-  background-color: #000 !important;
-  color: #fff !important;
+   
 }
 
-:root {
-  --bg: #1C1B1A;        /* base-950 */
-  --bg-alt: #1E1D1C;    /* dark paper */
-  --text-primary: #FFFCF0; /* paper */
-  --text-secondary: #CECDC3; /* base-200 */
-  --text-muted: #A6A39A; /* base-300 */
-  --border: #3A3937;    /* base-800 */
-  --accent-blue: #8DA3C9; /* blue-400 */
-  --accent-cyan: #5BAEA4; /* cyan-400 */
-}
-
-/* ---------- Base ---------- */
-html, body {
-  background: var(--bg) !important;
-  color: var(--text-primary) !important;
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.65;
-}
-
-/* Per correggere wrapper interni del template */
-body > div,
-.page,
-.page-content,
-.wrapper,
-main,
-.content {
-  background: var(--bg) !important;
-  color: var(--text-primary) !important;
-}
-
-/* ---------- Header / Nav completamente scuri ---------- */
-header,
-nav,
-.navbar,
-.site-header,
-.site-nav,
-.topnav,
-.header {
-  background: var(--bg) !important;
-  color: var(--text-secondar
