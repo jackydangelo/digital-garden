@@ -1,20 +1,13 @@
-/* Contenitore principale del footer */
 .digital-garden-footer {
-  margin-top: 3rem;            /* spazio sopra, come una separazione naturale */
-  padding-top: 2rem;           /* spazio interno superiore */
-  padding-bottom: 2rem;        /* spazio interno inferiore */
-  border-top: 1px solid var(--line); /* stesso colore delle linee del tema */
-  opacity: 0.9;                /* leggermente più tenue come un footer */
+  margin-top: 3rem;          /* distanza dal contenuto precedente */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid var(--line); /* colore linea tema */
+  text-align: center;        /* centrare contenuto */
 }
 
-/* Assicura che il testo dentro il footer abbia lo stesso stile delle note */
 .digital-garden-footer .footer-inner {
-  font-size: inherit;          /* font identico alle note */
-  line-height: inherit;        /* altezza di linea identica */
-  color: var(--text-muted);    /* stesso colore usato nei metadati */
-}
-
-/* Centra leggermente il contenuto (tipico dei footer discreti) */
-.digital-garden-footer .footer-inner {
-  text-align: center;
+  font-size: inherit;        /* stesso font delle note */
+  line-height: inherit;      /* stessa altezza di linea */
+  color: var(--text-muted);  /* colore coerente con il tema */
 }
