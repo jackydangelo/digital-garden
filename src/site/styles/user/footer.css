@@ -1,11 +1,12 @@
 .digital-garden-footer {
   margin: 3rem auto 0 auto;       /* centro orizzontale del blocco */
-  max-width: var(--site-width, 650px);  /* stessa larghezza delle note */
+  max-width: var(--site-width, 750px);  /* stessa larghezza delle note */
   padding: 2rem 0;                /* solo padding verticale */
   border-top: 1px solid var(--line, #ccc);
   text-align: left;               /* allineamento testo identico alle note */
   box-sizing: border-box;
 }
+
 
 
 
