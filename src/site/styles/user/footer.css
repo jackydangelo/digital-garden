@@ -1,20 +1,14 @@
-/* Contenitore principale del footer */
 .digital-garden-footer {
   margin-top: 3rem;           /* spazio sopra il footer */
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid var(--line); /* linea coerente con il tema */
+  border-top: 1px solid var(--line);
 }
 
 /* Wrapper interno: eredita lo stile delle note */
 .digital-garden-footer .footer-inner {
-  font-size: inherit;          /* font identico alle note */
-  line-height: inherit;        /* altezza riga identica */
-  color: inherit;              /* colore coerente con tema light/dark */
-  text-align: left;            /* allineamento come le note */
-}
-
-/* Opzionale: centratura del testo se vuoi ciao al centro */
-.digital-garden-footer.center .footer-inner {
-  text-align: center;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-align: left;            /* come le note */
 }
