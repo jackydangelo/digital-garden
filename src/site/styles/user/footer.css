@@ -1,23 +1,11 @@
 .digital-garden-footer {
-  margin-top: 3rem;
+  margin: 3rem auto 0 auto;       /* margine top e centratura orizzontale */
+  max-width: var(--site-width, 700px); /* stessa max-width delle note */
+  padding-left: var(--page-padding, 1rem);
+  padding-right: var(--page-padding, 1rem);
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid var(--line);
-}
-
-/* il container replica l’allineamento centrato delle note */
-.digital-garden-footer .container {
-  max-width: var(--site-width); /* lo stesso max-width delle note */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--page-padding);
-  padding-right: var(--page-padding);
-}
-
-/* testo identico alle note */
-.digital-garden-footer .footer-inner {
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
-  text-align: left;
+  border-top: 1px solid var(--line, #ccc);
+  text-align: left;               /* mantiene allineamento interno come note */
+  box-sizing: border-box;         /* evita overflow del padding */
 }
