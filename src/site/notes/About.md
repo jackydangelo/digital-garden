@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/about/","created":"2025-11-16T14:17:15.216+01:00"}
 ---
 
-# Chi sono
+## Chi sono
 
 Mi chiamo Giacomo, sono laureato in Statistica Matematica ed attualmente lavoro come ICT Project Manager presso [Gruppo Iren](https://www.gruppoiren.it/).
 In passato ho lavorato per [Accenture](https://www.accenture.com/it-it) ed [Axpo Italia](https://www.axpo.com/it/it.html).
@@ -12,7 +12,7 @@ Qualche link utile:
 - [[Scrittura\|Home]]
 - Progetti personali (pagina in creazione)
 
-# Come contattarmi
+## Come contattarmi
 
 Per quello che concerne il mio lavoro principale: non fatelo fuori dai canali istituzionali, e se non li avete è certo che non posso aiutarvi. Per quanto riguarda blogging, progetti paralleli o temi che riguardano la mia persona questi i miei contatti:
 
