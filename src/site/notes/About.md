@@ -9,12 +9,12 @@ In passato ho lavorato per [Accenture](https://www.accenture.com/it-it) ed [Axpo
 
 Qualche link utile:
 
-- [[Scrittura\|Home]]
+- [[Home\|Scrittura]]
 - Progetti personali (pagina in creazione)
 
 ## Come contattarmi
 
-Per quello che concerne il mio lavoro principale: non fatelo fuori dai canali istituzionali, e se non li avete è certo che non posso aiutarvi. Per quanto riguarda blogging, progetti paralleli o temi che riguardano la mia persona questi i miei contatti:
+Per quello che concerne il mio lavoro principale: non fatelo fuori dai canali istituzionali, e se non li avete è certo che non possa aiutarvi. Per quanto riguarda blogging, progetti paralleli o temi che riguardano la mia persona questi i miei contatti:
 
 - [LinkedIn](https://it.linkedin.com/in/giacomo-d-angelo-57798493?trk=people-guest_people_search-card)
 - GitHub: [@jackydangelo](https://github.com/jackydangelo) (non sono un esperto di codice ma mi diverte)
@@ -27,4 +27,4 @@ Per quello che concerne il mio lavoro principale: non fatelo fuori dai canali is
 
 ## Riguardo al sito
 
-Questo sito è scritto ed aggiornato interamente con [Obsidian](https://obsidian.md/), la mia app di produttività preferita, attraverso file locali del mio IPad. Tutti i file sono compilati grazie al plugin [Digital Garden](https://dg-docs.ole.dev/))di Obsidian, su cui si basa tutto lo scheletro del sito. L’hosting è demandato a [Vercel](https://vercel.com/). Tutte le piccole customizzazioni, sono consultabili nel mio repo di GitHub.
+Questo sito è scritto ed aggiornato interamente con [Obsidian](https://obsidian.md/), la mia app di produttività preferita, attraverso file locali del mio iPad. Tutti i file sono compilati grazie al plugin [Digital Garden](https://dg-docs.ole.dev/) di Obsidian, su cui si basa tutto lo scheletro del sito. L’hosting è demandato a [Vercel](https://vercel.com/). Tutte le piccole customizzazioni del sito sono consultabili nel mio repo di GitHub dedicato.
