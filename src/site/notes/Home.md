@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2025-11-14T21:39:14.031+01:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
 ---
 
 
@@ -15,4 +15,4 @@ Per tutto il resto c’è la mia pagina [[About\|About]].
 
 ---
 
-2025-11-25: [[Sul mondo open source\|Sul mondo open source]]
+2025-12-01: [[Essay/Piantare un seme\|Piantare un seme]]
